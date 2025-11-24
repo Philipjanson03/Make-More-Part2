@@ -2,20 +2,6 @@
 
 A PyTorch-based character-level language model that generates Farsi (Persian) names using a deep neural network. This project implements a custom neural network architecture from scratch, including embedding layers, batch normalization, and multi-layer perceptrons.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture Details](#model-architecture-details)
-- [Training Details](#training-details)
-- [Project Structure](#project-structure)
-- [Visualization](#visualization)
-- [License](#license)
-
 ## 🎯 Overview
 
 This project implements a character-level language model that learns to generate Farsi names by training on a dataset of Persian names. The model uses a context window approach where it predicts the next character based on the previous characters, making it capable of generating new, plausible Farsi names.
